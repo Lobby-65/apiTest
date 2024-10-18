@@ -6,7 +6,7 @@ const app = express()
 app.use(express.json())
 
 app.use('/produto', produtoRota)
-app.use('/post', postRota)
+app.use('/posts', postRota)
 
 app.get('/', (req, res) => {
     res.json({msg: "Hello from Express!"})

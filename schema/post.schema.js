@@ -2,9 +2,9 @@ module.exports = {
     type: "object",
     properties: {
         nome: {type: "string"},
-        descriçao: {type: "string"},
-        preço: {type: "number"}
+        descricao: {type: "string"},
+        preco: {type: "number"}
     },
-    required: ["nome", "preço"],
+    required: ["nome", "preco"],
     additionalProperties: false
 }
